@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task manager application built with React, TypeScript and TailwindCSS.
 
-Currently, two official plugins are available:
+## Live Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+See th live project [HERE](https://softamos-task-manager.netlify.app)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Here are instructions on setting up this project locally.
+To get a local copy up and running follow these simple example steps.
 
-- Configure the top-level `parserOptions` property like this:
+### Prerequisites
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+To setup the project locally, you need to have [NodeJs](https://nodejs.org/en) and [Git](https://git-scm.com/) installed
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/ikennaezef/softamos-task-manager.git
+   ```
+2. Navigate into the project-folder and install NPM packages
+   ```sh
+   cd softamos-task-manager
+   npm install
+   ```
+3. After the packages have been installed, startup the server
+   ```sh
+   npm run dev
+   ```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
