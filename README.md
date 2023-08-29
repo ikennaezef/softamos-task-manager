@@ -4,7 +4,7 @@ Task manager application built with React, TypeScript and TailwindCSS.
 
 ## Live Link
 
-See th live project [HERE](https://softamos-task-manager.netlify.app)
+See the live project [HERE](https://softamos-task-manager.netlify.app)
 
 ## Getting Started
 
